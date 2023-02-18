@@ -153,6 +153,7 @@ nav {
     width: 672px;
     background-size: contain;
     color: white;
+    margin-top: 100px;
    
 }
 .car2{
@@ -162,6 +163,7 @@ nav {
     background-size: contain;
     position: relative;
     left: 5px;
+    margin-top: 100px;
 }
 .room{
     background-color: rgb(255, 255, 255);
