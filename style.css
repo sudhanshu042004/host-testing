@@ -1,0 +1,356 @@
+header {
+    background: url("headerfootage.png") no-repeat scroll;
+    height: 800px;
+    background-size: contain;
+    color: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bolder;
+}
+
+.item {
+    display: inline;
+    padding: 0 36px 0 0;
+}
+
+.icon {
+    display: inline;
+}
+
+.navitems {
+    font-family: 'Quicksand', sans-serif;
+    position: relative;
+    top: 38px;
+    right: 61px;
+    width: 548px;
+    height: 21px;
+}
+
+.navicons {
+    position: relative;
+    top: 49px;
+    left: 122px;
+
+}
+
+.hr {
+    position: relative;
+    top: 48px;
+    height: 1px;
+    width: 1088px;
+    left: 90px;
+}
+
+.BMW {
+    position: relative;
+    top: 23px;
+    left: 59px;
+    transition: all .7s;
+    cursor: pointer;
+
+}
+
+.BMW:hover {
+    transform: rotate(360deg);
+}
+
+
+
+.location {
+    position: relative;
+    left: 38px;
+    size: 20px;
+}
+
+.search {
+    position: relative;
+    left: 72px;
+}
+
+.box {
+    display: flex
+}
+
+.sheer {
+    position: relative;
+    left: 649px;
+    top: 60px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.new {
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    left: 69px;
+    top: 79px;
+
+}
+
+.and {
+    font-size: 50px;
+}
+
+.i7 {
+    background: transparent;
+    border: 1px solid white;
+    width: 269px;
+    height: 52px;
+    position: relative;
+    top: 12px;
+    left: 0;
+    cursor: pointer;
+}
+
+.s7 {
+    background: transparent;
+    border: 1px solid white;
+    width: 269px;
+    height: 52px;
+    position: relative;
+    top: 25px;
+    left: 0;
+    cursor: pointer;
+}
+
+#i7 {
+    position: relative;
+    top: 17px;
+    left: 78px;
+    font-size: large;
+    font-weight: bold;
+}
+
+#s7 {
+    top: 18px;
+    left: 77px;
+    font-size: large;
+    font-weight: bold;
+    position: relative;
+}
+
+.i7:hover {
+    color: black;
+    border: 2px solid black;
+}
+
+.s7:hover {
+    color: black;
+    border: 2px solid black;
+}
+.car1{
+    background: url(https://www.bmw.in/content/dam/bmw/marketIN/bmw_in/all-models/3-series/gl/2023/header-banner.jpg/jcr:content/renditions/cq5dam.resized.img.1680.large.time1673269253945.jpg) scroll no-repeat;
+    height: 19rem;
+    width: 672px;
+    background-size: contain;
+    color: white;
+   
+}
+.car2{
+    background: url(https://www.bmw.in/content/dam/bmw/marketIN/bmw_in/all-models/x-series/x1/2023/x1-home-page-banner-desktop.jpg/jcr:content/renditions/cq5dam.resized.img.1680.large.time1674886551613.jpg) scroll no-repeat;
+    height: 19rem;
+    width: 672px;
+    background-size: contain;
+    position: relative;
+    left: 5px;
+}
+.room{
+    background-color: rgb(255, 255, 255);
+    height: 19rem;
+    position: relative;
+    top: -187px;
+    display: flex;
+}
+.series{
+    color: white;
+    font-size: larger;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 31px;
+    position: relative;
+    top: 32px;
+    left: 36px;
+}
+.x1{
+    color: white;
+    font-size: larger;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 31px;
+    position: relative;
+    top: 32px;
+    left: 36px;
+}
+.knowmore{
+    color: white;
+    background: transparent;
+    position: relative;
+    border: 2px solid white;
+    width: 269px;
+    height: 52px;
+    top: 50px;
+    left: 37px;
+
+}
+.knowmore:hover{
+    border: 3px solid black;
+    border-radius: 30px;
+}
+
+#knowmore{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    position: relative;
+    top: 20px;
+    left: 90px;
+}
+
+.cars{
+    background-color: rgb(255, 255, 255);
+    height: 346px;
+    /* width: 426px; */
+    position: relative;
+    top: -130px;
+}
+.street{
+    position: relative;
+    top: 140px;
+    left: 276px;
+
+}
+.c1{
+    position: relative;
+    top: 16px;
+    left: -318px;
+    z-index: 1;
+}
+.c2{
+    position: relative;
+    top: -243px;
+    left: 452px;
+    z-index: 2;
+}
+.c3{
+    position: relative;
+    top: -164px;
+    left: 102px;
+    z-index: 3;
+    height: 308px;
+}
+.more{
+    background-color: #1C69D4;
+    color: white;
+    height: 49px;
+    width: 304px;
+    position: relative;
+    top: -177px;
+    left: 512px;
+}
+#more{
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    top: 14px;
+    left: 70px;
+    font-weight: bold;
+}
+footer{
+    height: 504px;
+    background-color: rgb(230,230,230);
+    font-family: 'Montserrat', sans-serif;
+
+}
+.media{
+    position: relative;
+    top: 65px;
+    left: 962px;
+    font-size: larger;
+}
+.upper{
+    display: flex;
+    justify-content: space-between;
+
+}
+.media1{
+    list-style: none;
+}
+.insta{
+    position: relative;
+    top: 111px;
+    left: -364px;
+}
+.yt{
+    position: relative;
+    top: 75px;
+    left: -296px;
+}
+.fb{
+    position: relative;
+    top: 39px;
+    left: -226px;
+}
+.twit{
+    position: relative;
+    top: 3px;
+    left: -157px;
+}
+.in{
+    position: relative;
+    top: -33px;
+    left: -84px;
+}
+.hr2{
+    width: 1263px;
+    position: relative;
+    left: 31px;
+}
+.c{
+    color: black;
+    position: relative;
+    font-size: larger;
+    top: 0;
+    left: 0;
+}
+.lower{
+    display: flex;
+    justify-content: space-around;
+}
+.e{
+    font-size: small;
+    font-weight: bolder;
+    color: #818181;
+    list-style: none;
+    padding: 4px; 
+    position: relative;
+    top: 107px;
+}
+.l{
+    position: relative;
+    left: 104px;
+    top: 43px;
+    font-size: large;
+}
+.c{
+    position: relative;
+    left: 126px;
+}
+.exp{
+    position: relative;
+    left: 210px;
+}
+.q{
+    position: relative;
+    left: 157px;
+}
+.copy{
+    font-family: 'Montserrat', sans-serif;
+    height: 80px;
+    position: relative;
+    top: 29px;
+    left: 77px;
+}
